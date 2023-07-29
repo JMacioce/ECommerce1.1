@@ -7,10 +7,10 @@ const FeatureCard = ({ cards = [1, 2, 3] }) => {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h2 className="text-xs text-purple-500 tracking-widest font-medium title-font mb-1">
-            ROOF PARTY POLAROID
+            View Products By
           </h2>
           <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
-            Master Cleanse Reliac Heirloom
+            Category
           </h1>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -42,11 +42,10 @@ const FeatureCard = ({ cards = [1, 2, 3] }) => {
                   </div>
                   <div className="flex-grow">
                     <p className="leading-relaxed text-base">
-                      Blue bottle crucifix vinyl post-ironic four dollar toast
-                      vegan taxidermy. Gastropub indxgo juice poutine.
+                      Incredible deals on incredible products. Search by Category!
                     </p>
                     <a className="mt-3 text-purple-500 inline-flex items-center">
-                      Learn More
+                      View Category
                       <svg
                         fill="none"
                         stroke="currentColor"
